@@ -1,1 +1,4 @@
 theme: jekyll-theme-hacker
+title: "Deep Automodulators"
+description: "Ari Heljakka, Yuxin Ho, Juho Kannala, Arno Solin"
+markdown: kramdown
