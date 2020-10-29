@@ -22,7 +22,7 @@ We introduce a new family of generative neural network models called automodulat
 
 [Paper](https://arxiv.org/abs/1912.10321)<br/>
 [PyTorch Code](https://github.com/AaltoVision/automodulator)<br/>
-[Pre-trained models](https://drive.google.com/drive/folders/1_Sgq9DV3XvNt0JYC3lTkSD9VICuRzP1-)<br/>
+[Pre-trained models](https://drive.google.com/drive/folders/1SJuIINgq8j2Rr-DTi_WKg-FRvoVLrt5_)<br/>
 [Colab Notebook](https://colab.research.google.com/drive/1o1KQofPGdXSD-Zzxs32oHBuW_DeIPnnN)<br/>
 [Jupyter Notebook](https://github.com/AaltoVision/automodulator/blob/master/Automodulator%20Evaluator.ipynb)<br/>
 
