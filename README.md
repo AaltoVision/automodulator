@@ -6,7 +6,7 @@
 <br/>
 
 Code for the paper:
-* Heljakka, A., Hou, Y., Kannala, J., and Solin, A. (2020). **Deep Automodulators**. [[arXiv preprint]](https://arxiv.org/abs/1912.10321). In *Advances in Neural Information Processing Systems (NeurIPS)*.
+* Heljakka, A., Hou, Y., Kannala, J., and Solin, A. (2020). **Deep Automodulators**. In *Advances in Neural Information Processing Systems (NeurIPS)*. [[arXiv preprint]](https://arxiv.org/abs/1912.10321)
 
 Implementation by **Ari Heljakka** (drawing from [2-4], h5tool from [5]).
 
