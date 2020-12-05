@@ -9,7 +9,7 @@ import torchvision.utils
 # z_fused = model.zbuilder().high(zA).mid(zB).lo(zA)
 # imgAB = model.decode(z_fused)
 
-repo = 'heljakka/automodulator'
+repo = 'AaltoVision/automodulator'
 
 #datatype = 'celebahq256'
 #datatype = 'ffhq256'

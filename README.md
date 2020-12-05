@@ -33,7 +33,7 @@ You can run the [[Colab notebook]](https://colab.research.google.com/drive/1o1KQ
 To style-mix images you have loaded, all you have to do is basically the following:
 
 ```
-model = torch.hub.load('heljakka/automodulator', 'ffhq512', pretrained=True, source='github')
+model = torch.hub.load('AaltoVision/automodulator', 'ffhq512', pretrained=True, source='github')
 model.eval(useLN=False)
 z = model.encode(images)
 fused_image = model.decode(
