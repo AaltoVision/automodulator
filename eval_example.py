@@ -28,8 +28,8 @@ for k in range(4):
 
 if datatype in ['celebahq256', 'ffhq256', 'ffhq512']:
     simg = {}
-    simg[0] = 'fig/source-0.png' #'/media/ari/ExData/data/ffhq_valid/ffhq_valid/60013.png'
-    simg[1] = 'fig/source-1.png' #'/media/ari/ExData/data/ffhq_valid/ffhq_valid/60061.png'
+    simg[0] = 'fig/source-0.png'
+    simg[1] = 'fig/source-1.png'
 
     # Load 2 images to torch
     imgs = torch.stack([model.tf()(Image.open(simg[0])),
