@@ -10,11 +10,15 @@ Code for the paper:
 
 Implementation by **Ari Heljakka** (code adapted from [2-5], metrics from [6-7], h5tool from [8]).
 
+The GIT revision with tag [v1.0](https://github.com/AaltoVision/automodulator/tree/31160f91e5ee2ceb015202f1a1fb1138dc2d2402) can be used to reproduce the results of the paper, following the instructions on that revision.
+
+This repository has been, and may occasionally be, updated for improvements. The newest commit will always attempt to be better than the v1.0 revision, but not guaranteed stable, due to the relatively long training period for each dataset. So if you encounter any problems, please try out [v1.0](https://github.com/AaltoVision/automodulator/tree/31160f91e5ee2ceb015202f1a1fb1138dc2d2402) instead.
+
 ## Quick start
 
 ### a) Locally
 
-We recommend to try out the models via PyTorch Hub, loading the pre-trained models automatically, with PyTorch v1.7+ and Python v3.6+ as the only dependencies.
+We recommend to try out the models via PyTorch Hub API, loading the pre-trained models automatically, with PyTorch v1.7+ and Python v3.6+ as the only dependencies.
 
 For a quick test, just run:
 ```
@@ -22,18 +26,18 @@ python eval_example.py
 ```
 The script `eval_test.py` is self-explanatory and lets you immediately start style-mixing, generating random samples, and reconstructing. For style-mixing and reconstruction, the FFHQ models are far superior to the others.
 
-Alternatively, you can try the Jupyter Notebook at `/src/pioneer/Automodulator%20Evaluator.ipynb`
+Alternatively, you can try the Jupyter Notebook at `/src/pioneer/Automodulator%20Evaluator.ipynb` (which does not the Hub at the moment).
 
 ### b) In Browser, via Colab
 
-You can run the [[Colab notebook]](https://colab.research.google.com/drive/1o1KQofPGdXSD-Zzxs32oHBuW_DeIPnnN) directly from browser.
+You can run the [Colab notebook](https://colab.research.google.com/drive/1o1KQofPGdXSD-Zzxs32oHBuW_DeIPnnN) directly from browser.
 
 ### c) In code
 
 To style-mix images you have loaded, all you have to do is basically the following:
 
 ```
-model = torch.hub.load('heljakka/automodulator', 'ffhq512', pretrained=True, source='github')
+model = torch.hub.load('AaltoVision/automodulator', 'ffhq512', pretrained=True, source='github')
 model.eval(useLN=False)
 z = model.encode(images)
 fused_image = model.decode(
