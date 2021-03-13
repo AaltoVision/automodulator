@@ -196,7 +196,7 @@ Support and email replies are not always guaranteed, but we will appreciate and 
 
 ## References
 
-[1] Heljakka, A., Hou, Y., Kannala, J., and Solin, A. (submitted). **Deep Automodulators**. [[arXiv preprint]](https://arxiv.org/abs/1912.10321)
+[1] Heljakka, A., Hou, Y., Kannala, J., and Solin, A. (2020). **Deep Automodulators**. In *Advances in Neural Information Processing Systems (NeurIPS)*. [[arXiv preprint]](https://arxiv.org/abs/1912.10321)
 
 [2] https://github.com/AaltoVision/balanced-pioneer
 
